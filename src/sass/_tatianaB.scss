@@ -5,15 +5,45 @@
   align-items: center;
   padding: 70px 0px;
 }
-.title-h2,
-.paragraph {
+.title-h2 {
   font-family: 'Georgia', 'Times New Roman', 'Times', serif;
   font-size: 75px;
-  color: rgba(72, 255, 0, 0.959);
+  color: rgb(63, 185, 15);
   margin: 10px 0px;
 
   &:hover {
     color: rgb(217, 255, 0);
     box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.15);
   }
+}
+
+.paragraph {
+  font-family: 'Georgia', 'Times New Roman', 'Times', serif;
+  font-size: 45px;
+  font-weight: bold;
+  color: rgba(0, 255, 34, 0.959);
+  margin: 10px 0px;
+
+  &:hover {
+    color: rgb(217, 255, 0);
+    box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.15);
+  }
+}
+
+.link {
+  text-decoration: none;
+  cursor: pointer;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', sans-serif;
+  font-size: 35px;
+  color: rgba(255, 238, 0, 0.795);
+  &:hover {
+    color: rgb(255, 153, 0);
+    box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.15);
+  }
+}
+
+.span {
+  font-size: 25px;
+  margin-right: 20px;
+  color: red;
 }
