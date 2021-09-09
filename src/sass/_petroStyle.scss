@@ -1,0 +1,20 @@
+.open {
+  border: 3px solid rebeccapurple;
+  margin-bottom: 50px;
+}
+
+.title-h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  background-color: blue;
+  color: green;
+  transition: 1s;
+  &:hover {
+    color: saddlebrown;
+    background-color: sandybrown;
+    font-size: 70px;
+    font-weight: 500;
+    transition: 1s;
+  }
+}
