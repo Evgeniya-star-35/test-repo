@@ -1,0 +1,14 @@
+.image-petruha {
+  box-sizing: border-box;
+  width: 650px;
+  height: 500px;
+  margin: auto 50px 100px 50%;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  
+
+  // Путь к изображениям из SASS-файла всегда такой, как из папки css
+  background-image: url("../images/storyOfGroup.jpeg");
+  background-size: cover;
+  background-position: center;
+}
