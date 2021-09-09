@@ -1,0 +1,19 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 0px;
+}
+.title-h2,
+.paragraph {
+  font-family: 'Georgia', 'Times New Roman', 'Times', serif;
+  font-size: 75px;
+  color: rgba(72, 255, 0, 0.959);
+  margin: 10px 0px;
+
+  &:hover {
+    color: rgb(217, 255, 0);
+    box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.15);
+  }
+}
